@@ -13,17 +13,16 @@
             credentials:'AjGQvM-Te-ItUDznc7qR8W8mBGR-DCnoFpAJoO3CDgfU2QjVhLPwTE8V1AalG_Yy'
         });
 
-        //Request the user's location
         navigator.geolocation.getCurrentPosition(function (position) {
             var loc = new Microsoft.Maps.Location(
                 position.coords.latitude,
                 position.coords.longitude);
 
-            //Add a pushpin at the user's location.
+    
             var pin = new Microsoft.Maps.Pushpin(loc);
             map.entities.push(pin);
 
-            //Center the map on the user's location.
+            
             map.setView({ center: loc, zoom: 15 });
         });
     }
@@ -31,9 +30,8 @@
     <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 
     <style>
-        /* Your existing styles */
 
-        /* Positioning for the map container */
+        
         .map-container {
             position: relative;
             width: 50%;
@@ -50,7 +48,7 @@
             left: 0;
         }
 
-        /* Styles for the buttons */
+        
         .map-links .col a {
             display: block;
             text-align: center;
@@ -69,7 +67,7 @@
 </head>
 <body>
     <div class="canvas-element">
-        <!-- ... Your canvas code ... -->
+    
     </div>
 
     <div class="map-container">
