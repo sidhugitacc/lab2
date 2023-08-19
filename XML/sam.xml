@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="sample.dtd" type="application/xml-dtd"?>
+<?xml-model href="sample.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product id="Pr1">
+      <name>Camera</name>
+      <price>399</price>
+      <quantity>75</quantity>
+      <category>Electronics</category>
+    </product>
+    <product id="Pr2">
+      <name>Saree</name>
+      <price>100</price>
+      <quantity>200</quantity>
+      <category>Clothing</category>
+    </product>
+    <product id="Pr3">
+      <name>Book</name>
+      <price>20</price>
+      <quantity>1000</quantity>
+      <category>Books</category>
+    </product>
+  </products>
