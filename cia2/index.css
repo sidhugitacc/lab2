@@ -1,0 +1,89 @@
+body {
+    background-color: #2cdfd6;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #AAAAAA;
+  }
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c53636;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #3e8041;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background-color: #3E8E41;
+  }
+  .error-message {
+    color: #FF0000;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    
+  }
+  nav {
+    display: flex;
+  }
+  
+  .search input[type="text"] {
+    width: 150px;
+    padding: 5px;
+  }
+  
+  .search button {
+    padding: 5px 10px;
+  }
+  footer {
+    height: 200px;
+  }
+  
+  
+  
