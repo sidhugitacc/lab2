@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  #registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(224, 20, 20, 0.1);
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c1dc10;
+    border-radius: 4px;
+  }
+  
+  .status {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.valid {
+  color: rgb(74, 206, 74);
+}
+
+.invalid {
+  color: rgb(255, 39, 172);
+}
+
+#submit-btn {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #269ca7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-btn:disabled {
+  background-color: #c2496d;
+  cursor: not-allowed;
+}
